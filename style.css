@@ -46,7 +46,22 @@ nav{
 .link-button{
     text-decoration: none;
     padding: 10px 50px;
-    background-image: linear-gradient(orange,red);
+    background-image: linear-gradient(salmon,red);
     color: white;
     border-radius: 5%;
+    
+}
+.link-button:hover{
+    background-image:linear-gradient(blue,cyan) ;
+    color: black;
+}
+.link-button i{
+    margin-right: 10px;
+}
+#about{
+    margin-top: 150px;
+}
+.about-heading{
+    color: black;
+    font-size: 40px;
 }
